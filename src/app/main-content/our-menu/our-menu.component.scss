@@ -1,0 +1,70 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/assets/img/section_our_menu_bg.jpg");
+    background-size: cover;
+
+    h1 {
+        color: #9F0908;
+        font-size: 80px;
+        margin-block-start: 120px;
+        margin-block-end: 64px;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-style: normal;
+        font-size: 56px;
+        margin-block-end: 16px;
+    }
+
+    img {
+        width: 352px;
+        height: 352px;
+    }
+
+    table {
+        font-family: "Raleway";
+        font-size: 32px;
+        color: #675E54;
+    }
+
+    .menuheader {
+        display: flex;
+    }
+
+}
+
+.dish1 {
+    display: flex;
+    width: 60vw;
+    justify-content: flex-start;
+    margin-block-end: 56px;
+    align-items: center;
+}
+
+.dish2 {
+    display: flex;
+    width: 60vw;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin-block-end: 56px;
+    align-items: center;
+}
+
+.dish3 {
+    display: flex;
+    width: 60vw;
+    justify-content: flex-start;
+    margin-block-end: 120px;
+    align-items: center;
+}
+
+.menuimg {
+    padding-right: 80px;
+}
+
+.menuimg2 {
+    padding-left: 80px;
+}
