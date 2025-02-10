@@ -1,0 +1,35 @@
+.impressum {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.impressum h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.impressum h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #e63946;
+}
+
+.impressum p {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.impressum a {
+    color: #e63946;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.impressum a:hover {
+    text-decoration: underline;
+}

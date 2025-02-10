@@ -1,0 +1,25 @@
+.logo2 {
+    height: 44px;
+  }
+  
+  .footer {
+    background-color: black;
+    height: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    a {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 24px;
+        &:hover {
+            color: goldenrod;
+            transform: scale(1.05);
+        }
+    }
+  }
+  .social {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+  }
